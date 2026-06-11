@@ -1,19 +1,74 @@
 Ramas y sincronización
-
 git branch
-Permite crear, listar y administrar ramas dentro de un repositorio. Las ramas facilitan el trabajo paralelo sin afectar el código principal.
+Permite crear, listar y administrar ramas dentro de un repositorio.
+
+Las ramas facilitan el trabajo paralelo sin afectar el código principal del proyecto.
+
+Ejemplo
+git branch
+
+
+Muestra las ramas existentes en el repositorio.
+
+---
 
 git switch
-Permite cambiar de una rama a otra de forma sencilla. También puede utilizarse para crear una nueva rama mediante la opción -c.
+Permite cambiar de una rama a otra de forma sencilla.
+
+También puede utilizarse para crear una nueva rama mediante la opción -c.
+
+Ejemplo
+git switch main
+
+
+Cambia a la rama main.
+
+---
 
 git checkout
-Permite cambiar entre ramas o restaurar archivos. En versiones recientes de Git, parte de sus funciones fueron separadas en los comandos git switch y git restore.
+Permite cambiar entre ramas o restaurar archivos.
+
+En versiones recientes de Git, parte de sus funciones fueron separadas en los comandos git switch y git restore.
+
+Ejemplo
+git checkout desarrollo
+
+
+Cambia a la rama indicada.
+
+---
 
 git pull
 Obtiene los cambios desde un repositorio remoto y los integra en la rama local actual.
 
+Ejemplo
+git pull origin main
+
+
+Descarga e integra los cambios de la rama main.
+
+---
+
 git push
 Envía los commits realizados localmente hacia el repositorio remoto.
 
+Ejemplo
+git push origin main
+
+
+Sube los cambios locales a la rama remota especificada.
+
+---
+
 git merge
-Combina los cambios de una rama con otra, integrando el historial de ambas
+Permite combinar los cambios de una rama con otra.
+
+Es una de las formas más utilizadas para integrar el trabajo realizado por distintos integrantes de un equipo.
+
+Cuando existen cambios incompatibles entre ramas, Git puede generar conflictos que deben resolverse manualmente antes de completar la integración.
+
+Ejemplo
+git merge main
+
+
+Integra los cambios de la rama main en la rama actual.-
