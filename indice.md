@@ -2,7 +2,7 @@
 
 ## Integrantes
 
-* Manuel Aguilar
+* Manuel Aguilar (Programador)
 * Agustín
 
 ## Introducción
