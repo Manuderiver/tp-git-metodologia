@@ -16,4 +16,4 @@ git push
 Envía los commits realizados localmente hacia el repositorio remoto.
 
 git merge
-Combina los cambios de una rama con otra, integrando el historial de ambas
+Permite combinar los cambios de una rama con otra. Es una de las formas más utilizadas para integrar el trabajo realizado por distintos integrantes de un equipo. Cuando existen cambios incompatibles entre ramas, Git puede generar conflictos que deben resolverse manualmente antes de completar la integración.
