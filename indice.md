@@ -2,7 +2,7 @@
 
 ## Integrantes
 
-* Manuel Aguilar (Desarollador)
+* Manuel Aguilar
 * Agustín
 
 ## Introducción
