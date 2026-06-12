@@ -2,12 +2,9 @@
 
 ## Integrantes
 
-<<<<<<< HEAD
-* Manuel Aguilar (Desarrollador)
-=======
 * Manuel Aguilar (Desarollador)
->>>>>>> main
 * Agustín (Desarrollador)
+
 
 ## Introducción
 
