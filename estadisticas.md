@@ -5,16 +5,26 @@
 Comando utilizado:
 
 ```bash
-git shortlog -sn --all
+git shortlog -sne --all
 ```
 
-Resultado:
+Resultado obtenido:
 
-* Agustín (sugga222): 15 commits
-* Manuel (ManuDeriver): 8 commits
-* Manuel (Manuderiver): 4 commits
+Agustín:
 
-Integrante con mayor cantidad de commits: **Agustín**, con **15 commits**.
+* 10 commits (correo GitHub)
+* 6 commits (correo personal)
+
+Total: 16 commits
+
+Manuel:
+
+* 9 commits (correo personal)
+* 4 commits (correo GitHub)
+
+Total: 13 commits
+
+Integrante con mayor cantidad de commits: **Agustín**, con **16 commits**.
 
 ---
 
@@ -28,7 +38,7 @@ git log --merges --oneline
 
 Resultado:
 
-Cantidad total de merges registrados: **13**.
+Cantidad total de merges registrados en el repositorio: **13**.
 
 ---
 
@@ -125,3 +135,5 @@ capturas/captura diff.png
 ## Observaciones
 
 Durante el desarrollo del trabajo se utilizaron ramas, Pull Requests, revisiones, merges, resolución de conflictos, revert y rebase para aplicar los conceptos vistos en la cursada y mantener un flujo de trabajo colaborativo.
+
+Las evidencias solicitadas por la consigna se encuentran almacenadas en la carpeta `capturas`.
