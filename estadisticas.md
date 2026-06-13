@@ -1,83 +1,127 @@
 # Estadísticas del Repositorio
 
-## Integrantes
+## Integrante con mayor cantidad de commits
 
-* Manuel Aguilar
-* Agustín
+Comando utilizado:
 
-## Ramas utilizadas
+```bash
+git shortlog -sn --all
+```
 
-Durante el desarrollo del trabajo se utilizaron las siguientes ramas:
+Resultado:
+
+* Agustín (sugga222): 15 commits
+* Manuel (ManuDeriver): 8 commits
+* Manuel (Manuderiver): 4 commits
+
+Integrante con mayor cantidad de commits: **Agustín**, con **15 commits**.
+
+---
+
+## Cantidad total de merges realizados
+
+Comando utilizado:
+
+```bash
+git log --merges --oneline
+```
+
+Resultado:
+
+Cantidad total de merges registrados: **13**.
+
+---
+
+## Cantidad de conflictos producidos
+
+Comando utilizado:
+
+```bash
+git log --merges --oneline
+```
+
+Resultado:
+
+Cantidad de conflictos producidos: **1**.
+
+Hash asociado a la resolución del conflicto:
+
+```text
+52cb777
+```
+
+Captura disponible en:
+
+```text
+capturas/captura conflicto.png
+```
+
+---
+
+## Cantidad de ramas
+
+Comando utilizado:
+
+```bash
+git branch -a
+```
+
+Resultado actual:
 
 * main
 * manuel
-* agustin
 * prueba-rebase
 
-Total de ramas creadas: 4.
+Cantidad de ramas existentes actualmente: **3**.
 
-## Historial de trabajo
+Durante el desarrollo del trabajo también se utilizó la rama:
 
-Se realizaron commits utilizando diferentes convenciones de mensajes para identificar claramente el propósito de cada cambio:
+* agustin
 
-### Commits de tipo feat
+Total de ramas utilizadas durante el proyecto: **4**.
 
-* feat: agregar estructura inicial y comandos basicos
-* feat: agregar documentacion de ramas y sincronizacion
-* feat: agregar documentacion de historial y recuperacion
+---
 
-### Commits de tipo fix
+## Commit con mayor cantidad de archivos modificados
 
-* fix: corregir descripcion de git merge
+Comando utilizado:
 
-### Commits de tipo style
+```bash
+git log --stat --oneline
+```
 
-* style: mejorar formato de documentacion
+Resultado:
 
-### Otros commits realizados
+Hash del commit:
 
-* Actualización de información de integrantes.
-* Resolución de conflictos.
-* Incorporación de evidencias.
-* Documentación sobre uso de inteligencia artificial.
-* Revert de cambios.
-* Merges de Pull Requests.
+```text
+37e72b7
+```
 
-## Pull Requests y Merges
+Descripción:
 
-Durante el desarrollo del proyecto se utilizaron Pull Requests para integrar cambios a la rama principal.
+```text
+feat: agregar estructura inicial y comandos basicos
+```
 
-Se realizaron revisiones entre los integrantes antes de aprobar los cambios y efectuar los merges correspondientes.
+Cantidad de archivos modificados: **5**.
 
-En total se registraron nueve Pull Requests integrados a la rama principal.
+Archivos modificados:
 
-## Conflictos
+* comandos-basicos.md
+* estadisticas.md
+* historial-y-recuperacion.md
+* indice.md
+* ramas-y-sincronizacion.md
 
-Se generó un conflicto de forma controlada sobre el archivo `indice.md` para practicar el proceso de resolución de conflictos.
+Captura del diff disponible en:
 
-El conflicto fue resuelto manualmente y se adjuntó evidencia del proceso en la carpeta `capturas`.
+```text
+capturas/captura diff.png
+```
 
-## Uso de Revert
+---
 
-Se utilizó el comando `git revert` para deshacer cambios previamente realizados sin alterar el historial del repositorio.
+## Observaciones
 
-Esto permitió registrar un nuevo commit de reversión manteniendo la trazabilidad de los cambios.
-
-## Uso de Rebase
-
-Se utilizó el comando `git rebase` para sincronizar una rama de trabajo con la rama principal.
-
-Esta práctica permitió comprender el funcionamiento del rebase y las diferencias respecto al merge tradicional.
-
-## Evidencias
-
-Las evidencias generadas durante el trabajo práctico se encuentran almacenadas en la carpeta:
-
-* capturas/conflicto-merge.png
-* capturas/diff-commit.png
-
-## Conclusión
-
-El trabajo práctico permitió aplicar los conceptos fundamentales de Git y GitHub mediante el uso de ramas, commits, Pull Requests, revisiones, merges, resolución de conflictos, revert y rebase.
-
-Además, se trabajó de manera colaborativa siguiendo una metodología de control de versiones similar a la utilizada en proyectos reales de desarrollo de software.
+Durante el desarrollo del trabajo se utilizaron ramas, Pull Requests, revisiones, merges, resolución de conflictos, revert y rebase para aplicar los conceptos vistos en la cursada y mantener un flujo de trabajo colaborativo.
